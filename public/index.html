@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Producto</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <h2> Producto</h2>
+
+    <form action="/productos/listar" method="post">
+        Nombre <input type="text" required name="nombre" placeholder="Nombre ">
+        Precio <input type="number" required name="precio" placeholder="Precio $$$ ">
+        Descripción <input type="text"required  name="descripcion" placeholder="Descripción del producto ">
+        url imagen <input type="text" name="imagen" placeholder="URL Imagen">
+
+        <button>Enviar</button>
+    </form>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

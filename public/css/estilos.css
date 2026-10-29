@@ -1,0 +1,13 @@
+h2 {
+    color: blue;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-top: 20px;
+}
